@@ -37,8 +37,8 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/bg02.jpg': 'fit',
+							'images/bg03.jpg': 'top'
 						},
 
 					// Delay.
@@ -159,8 +159,8 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', 'Thank you!');
-								//$message._show('failure', 'Something went wrong. Please try again.');
+								// $message._show('success', 'Thank you!');
+								$message._show('failure', 'Sembra che io non sia ancora pronto ad accogliere la tua email. Peccato!');
 
 						}, 750);
 
